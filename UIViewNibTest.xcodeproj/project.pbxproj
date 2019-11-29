@@ -16,6 +16,9 @@
 		7B88BA772391045A00DA13E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B88BA752391045A00DA13E4 /* LaunchScreen.storyboard */; };
 		7B88BA822391045B00DA13E4 /* UIViewNibTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B88BA812391045B00DA13E4 /* UIViewNibTestTests.swift */; };
 		7B88BA8D2391045B00DA13E4 /* UIViewNibTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B88BA8C2391045B00DA13E4 /* UIViewNibTestUITests.swift */; };
+		7B88BA9B2391046900DA13E4 /* ButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B88BA9A2391046900DA13E4 /* ButtonView.xib */; };
+		7B88BA9D2391047A00DA13E4 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B88BA9C2391047A00DA13E4 /* ButtonView.swift */; };
+		7B88BA9F2391112C00DA13E4 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B88BA9E2391112C00DA13E4 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		7B88BA882391045B00DA13E4 /* UIViewNibTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIViewNibTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B88BA8C2391045B00DA13E4 /* UIViewNibTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewNibTestUITests.swift; sourceTree = "<group>"; };
 		7B88BA8E2391045B00DA13E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B88BA9A2391046900DA13E4 /* ButtonView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonView.xib; sourceTree = "<group>"; };
+		7B88BA9C2391047A00DA13E4 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		7B88BA9E2391112C00DA13E4 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +108,11 @@
 			isa = PBXGroup;
 			children = (
 				7B88BA672391045900DA13E4 /* AppDelegate.swift */,
+				7B88BA9A2391046900DA13E4 /* ButtonView.xib */,
+				7B88BA9C2391047A00DA13E4 /* ButtonView.swift */,
 				7B88BA692391045900DA13E4 /* SceneDelegate.swift */,
 				7B88BA6B2391045900DA13E4 /* ViewController.swift */,
+				7B88BA9E2391112C00DA13E4 /* Extension.swift */,
 				7B88BA6D2391045900DA13E4 /* Main.storyboard */,
 				7B88BA732391045A00DA13E4 /* Assets.xcassets */,
 				7B88BA752391045A00DA13E4 /* LaunchScreen.storyboard */,
@@ -235,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B88BA9B2391046900DA13E4 /* ButtonView.xib in Resources */,
 				7B88BA772391045A00DA13E4 /* LaunchScreen.storyboard in Resources */,
 				7B88BA742391045A00DA13E4 /* Assets.xcassets in Resources */,
 				7B88BA6F2391045900DA13E4 /* Main.storyboard in Resources */,
@@ -264,6 +274,8 @@
 			files = (
 				7B88BA722391045900DA13E4 /* UIViewNibTest.xcdatamodeld in Sources */,
 				7B88BA6C2391045900DA13E4 /* ViewController.swift in Sources */,
+				7B88BA9D2391047A00DA13E4 /* ButtonView.swift in Sources */,
+				7B88BA9F2391112C00DA13E4 /* Extension.swift in Sources */,
 				7B88BA682391045900DA13E4 /* AppDelegate.swift in Sources */,
 				7B88BA6A2391045900DA13E4 /* SceneDelegate.swift in Sources */,
 			);
